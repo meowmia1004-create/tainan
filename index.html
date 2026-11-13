@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="台南咖啡散策：依 Google 評分與評論數整理台南咖啡廳，查看店家地址、營業資訊與 Google Maps 實景照片。">
+<title>台南咖啡散策｜Tainan Coffee Guide</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="topbar"><a class="brand" href="#"><span class="brand-icon">珈</span><span><b>台南咖啡散策</b><small>TAINAN COFFEE JOURNAL</small></span></a><nav><a href="#list">咖啡廳清單</a><a href="#about">選店方式</a><a href="#sources">資料來源</a></nav></header>
+<main>
+<section class="hero">
+<div class="hero-copy"><p class="eyebrow">A LOCAL COFFEE GUIDE · TAINAN</p><h1>在台南，<br><em>尋找一杯喜歡的咖啡。</em></h1><p>從巷弄老屋到職人手沖，整理值得收藏的台南咖啡店。依評分與評論數排序，出發前也別忘了確認最新營業資訊。</p><a class="hero-btn" href="#list">探索咖啡店 <span>↗</span></a><div class="hero-foot">LOCAL FINDS · SLOW DAYS · GOOD COFFEE</div></div>
+<div class="hero-photo"><img src="assets/coffee-brew.jpg" alt="日系咖啡氛圍示意：窗邊手沖咖啡"><span class="photo-tag">TAKE IT SLOW</span><div class="vertical-stamp">台南喫茶日記</div></div>
+<div class="hero-deco">珈琲</div>
+</section>
+<section class="intro" id="about"><span class="section-no">01 / HOW WE SELECT</span><div><h2>不只看星星，<br><em>也看評論的累積。</em></h2><p>優先整理 Google 評分較高、且有一定評論數的店家。評分與營業時間會變動，這份清單是探索起點，不是永久營業保證。</p></div><div class="intro-seal">LOCAL<br>COFFEE<br>GUIDE</div></section>
+<section class="list-section" id="list"><div class="section-head"><div><span class="section-no">02 / THE COFFEE LIST</span><h2>台南咖啡店，<em>慢慢挑。</em></h2></div><p>點選每張卡片查看店家資訊，<br>或前往 Google Maps 看實景照片與最新評論。</p></div>
+<div class="tools"><label class="search"><span>⌕</span><input id="search" type="search" placeholder="搜尋店名、行政區或特色…"></label><span id="count" class="count"></span></div>
+<div class="filters" id="filters"><button class="active" data-district="全部">全部區域</button><button data-district="中西區">中西區</button><button data-district="東區">東區</button><button data-district="北區">北區</button><button data-district="南區">南區</button></div>
+<div class="sort-row"><span>依 Google 評分排序（同分依評論數）</span><span>資料查核：2026.11.13</span></div>
+<div class="cards" id="cards"></div><p class="no-result" id="noResult" hidden>沒有符合條件的店家，試試其他關鍵字。</p>
+</section>
+<section class="photo-note"><div class="note-ornament">✳</div><div><span class="section-no">03 / PHOTO NOTE</span><h2>真實店家照片，<em>請看 Google Maps。</em></h2><p>本網站的咖啡圖片是日系風格氛圍示意圖，並非特定店家的實景。每間店都附上 Google Maps 入口，點擊即可查看店家相片、最新評論、路線與營業狀態。</p></div><a href="#list">回到店家清單 ↑</a></section>
+<section class="sources" id="sources"><span class="section-no">04 / SOURCES & NOTES</span><h2>資料來源與使用提醒</h2><ul><li>Google Maps 商家資料：評分、評論數、地址與營業時間；資料查核日 2026 年 11 月 13 日。</li><li>珈琲散歩：補充店家特色與營業資訊。</li><li>TVBS 食尚玩家：杏源珈琲等店家介紹。</li><li>營業時間可能因臨時公休、節日或店家調整而變更，出發前請點開 Google Maps 或店家官方社群再次確認。</li></ul><p>本網站為課程專案與旅遊資訊整理，非店家官方網站。Google 評分、評論數與店家照片均屬 Google Maps 及其貢獻者內容，請至原平台查看。</p></section>
+</main>
+<footer><a class="brand" href="#"><span class="brand-icon">珈</span><span><b>台南咖啡散策</b><small>TAINAN COFFEE JOURNAL</small></span></a><span>MADE FOR SLOW TRAVEL IN TAINAN · © 2026</span></footer>
+<dialog id="detail"><button class="close" id="close">×</button><div id="detailBody"></div></dialog>
+<script src="js/cafes.js"></script><script src="js/app.js"></script>
+</body></html>
